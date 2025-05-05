@@ -4,7 +4,7 @@ import laravel from 'laravel-vite-plugin'
 import { wordpressPlugin, wordpressThemeJson } from '@roots/vite-plugin';
 
 export default defineConfig({
-  base: 'C:/xampp/htdocs/wp_creations',
+  base: 'laravel.stunninghub.in',
   plugins: [
     tailwindcss(),
     laravel({
